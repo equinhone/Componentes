@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/03/28 16:45:47.000.715,=rtl.dcp</Transaction>
+    <Transaction>2019/03/28 16:46:18.000.373,C:\Users\Quinhone.ODEONINFO\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\Quinhone.ODEONINFO\Documents\Embarcadero\Studio\Projects\SuiteQuinhone2.dproj</Transaction>
+    <Transaction>2019/03/28 16:47:40.000.268,=vcl.dcp</Transaction>
+    <Transaction>2019/03/28 16:47:40.000.015,=C:\Users\Quinhone.ODEONINFO\Desktop\WorkShop\Workshop Janeiro 2019\Workshop Janeiro 2019\Componente\unCustomPanelButton.pas</Transaction>
+    <Transaction>2019/03/28 16:48:34.000.346,C:\Users\Quinhone.ODEONINFO\Documents\Embarcadero\Studio\Projects\SuiteQuinhone2.dproj=C:\Users\Quinhone.ODEONINFO\Desktop\WorkShop\Workshop Janeiro 2019\Workshop Janeiro 2019\Componente\SuiteQuinhone2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
