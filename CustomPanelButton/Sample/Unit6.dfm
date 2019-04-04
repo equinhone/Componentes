@@ -13,12 +13,20 @@ object Form6: TForm6
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 472
+    Top = 264
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
   object Button1: TButton
     Left = 400
     Top = 216
     Width = 75
     Height = 25
     Caption = 'Button1'
+    Images = ImageList1
     TabOrder = 0
   end
   object cxButton1: TcxButton
@@ -28,6 +36,26 @@ object Form6: TForm6
     Height = 25
     Caption = 'cxButton1'
     TabOrder = 1
+  end
+  object CustomPanelButton1: TCustomPanelButton
+    Left = 544
+    Top = 320
+    Width = 185
+    Height = 41
+    Caption = ' '
+    Padding.Left = 3
+    Padding.Top = 3
+    Padding.Right = 3
+    Padding.Bottom = 3
+    TabOrder = 2
+    QTexTCaption = 'Eduardo'
+    QTextFont.Charset = DEFAULT_CHARSET
+    QTextFont.Color = clBlue
+    QTextFont.Height = -13
+    QTextFont.Name = 'Segoe UI'
+    QTextFont.Style = []
+    QImageWidth = 0
+    QImageRedimensiar = trAutomatico
   end
   object ImageList1: TImageList
     Height = 40

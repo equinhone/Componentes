@@ -3,13 +3,10 @@
         <ProjectGuid>{D8DB6A11-D143-41D5-B460-8E8048F8DFE7}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="CardLTE.dproj">
-            <Dependencies/>
-        </Projects>
         <Projects Include="Sample\Project2.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="C:\Users\Quinhone.ODEONINFO\Desktop\WorkShop\Workshop Janeiro 2019\Workshop Janeiro 2019\Componente\SuiteQuinhone2.dproj">
+        <Projects Include="SuiteQuinhone2.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -20,15 +17,6 @@
             <Default.Personality/>
         </BorlandProject>
     </ProjectExtensions>
-    <Target Name="CardLTE">
-        <MSBuild Projects="CardLTE.dproj"/>
-    </Target>
-    <Target Name="CardLTE:Clean">
-        <MSBuild Projects="CardLTE.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="CardLTE:Make">
-        <MSBuild Projects="CardLTE.dproj" Targets="Make"/>
-    </Target>
     <Target Name="Project2">
         <MSBuild Projects="Sample\Project2.dproj"/>
     </Target>
@@ -39,22 +27,22 @@
         <MSBuild Projects="Sample\Project2.dproj" Targets="Make"/>
     </Target>
     <Target Name="SuiteQuinhone2">
-        <MSBuild Projects="C:\Users\Quinhone.ODEONINFO\Desktop\WorkShop\Workshop Janeiro 2019\Workshop Janeiro 2019\Componente\SuiteQuinhone2.dproj"/>
+        <MSBuild Projects="SuiteQuinhone2.dproj"/>
     </Target>
     <Target Name="SuiteQuinhone2:Clean">
-        <MSBuild Projects="C:\Users\Quinhone.ODEONINFO\Desktop\WorkShop\Workshop Janeiro 2019\Workshop Janeiro 2019\Componente\SuiteQuinhone2.dproj" Targets="Clean"/>
+        <MSBuild Projects="SuiteQuinhone2.dproj" Targets="Clean"/>
     </Target>
     <Target Name="SuiteQuinhone2:Make">
-        <MSBuild Projects="C:\Users\Quinhone.ODEONINFO\Desktop\WorkShop\Workshop Janeiro 2019\Workshop Janeiro 2019\Componente\SuiteQuinhone2.dproj" Targets="Make"/>
+        <MSBuild Projects="SuiteQuinhone2.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
-        <CallTarget Targets="CardLTE;Project2;SuiteQuinhone2"/>
+        <CallTarget Targets="Project2;SuiteQuinhone2"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="CardLTE:Clean;Project2:Clean;SuiteQuinhone2:Clean"/>
+        <CallTarget Targets="Project2:Clean;SuiteQuinhone2:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="CardLTE:Make;Project2:Make;SuiteQuinhone2:Make"/>
+        <CallTarget Targets="Project2:Make;SuiteQuinhone2:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

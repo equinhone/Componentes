@@ -14,6 +14,9 @@ type
     cxButton1: TcxButton;
     ImageList1: TImageList;
 
+    Label1: TLabel;
+    CustomPanelButton1: TCustomPanelButton;
+
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
