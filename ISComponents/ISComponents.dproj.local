@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/08 15:38:16.000.133,D:\Carnival\ISIcones\FMX.ISIcones.pas=D:\Carnival\ISIcones\FMX.IS_Icons.pas</Transaction>
+    <Transaction>2019/05/08 15:38:36.000.009,D:\Carnival\ISIcones\FMX.IS_Icons.pas=D:\Carnival\ISIcones\FMX.ISIcon2s.pas</Transaction>
+    <Transaction>2019/05/08 15:38:42.000.391,D:\Carnival\ISIcones\FMX.ISIcon2s.pas=D:\Carnival\ISIcones\FMX.ISIcones.pas</Transaction>
+    <Transaction>2019/05/08 15:39:02.000.638,D:\Carnival\ISIcones\FMX.ISIcones.pas=D:\Carnival\ISIcones\FMX.ISIcons.pas</Transaction>
+    <Transaction>2019/05/08 15:40:55.000.909,D:\Carnival\ISIcones\ISComponents.dproj=D:\Carnival\ISIcones\Icones.dproj</Transaction>
+    <Transaction>2019/05/08 15:53:39.000.055,=D:\Carnival\ISIcones\Unit1.pas</Transaction>
+    <Transaction>2019/05/08 15:53:51.000.882,D:\Carnival\ISIcones\FMX.ISFloatMenu.pas=D:\Carnival\ISIcones\Unit1.pas</Transaction>
+    <Transaction>2019/05/08 15:54:07.000.828,=D:\Carnival\ISIcones\ISIcones.RC</Transaction>
+    <Transaction>2019/05/28 18:08:28.232,=D:\Carnival\ISComponents\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 18:08:54.230,D:\Carnival\ISComponents\FMX.ISEdit.pas=D:\Carnival\ISComponents\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 19:02:50.921,D:\Carnival\ISComponents\FMX.ISEditEx.pas=D:\Carnival\ISComponents\FMX.ISEdit.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="FMX.ISEditEx.pas"/>
+    <File Path="FMX.ISFloatMenu.pas"/>
+    <File Path="FMX.ISIcons.pas"/>
+    <File Path="ISIcones.RC"/>
+    <File Path="fmx.dcp"/>
+    <File Path="rtl.dcp"/>
+  </ProjectSortOrder>
+</BorlandProject>

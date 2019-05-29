@@ -1,0 +1,211 @@
+object Form37: TForm37
+  Left = 0
+  Top = 0
+  Caption = 'FloatMenu demo'
+  ClientHeight = 501
+  ClientWidth = 372
+  Quality = HighQuality
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Margins.Left = 32.000000000000000000
+    Margins.Top = 32.000000000000000000
+    Margins.Right = 32.000000000000000000
+    Margins.Bottom = 32.000000000000000000
+    Size.Width = 308.000000000000000000
+    Size.Height = 437.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claGray
+    XRadius = 8.000000000000000000
+    YRadius = 8.000000000000000000
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+    object IS_Floatmenu1: TIS_Floatmenu
+      Anchors = [akRight, akBottom]
+      Fill.Color = claCadetblue
+      Position.X = 248.000000000000000000
+      Position.Y = 378.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      Color = claCadetblue
+      EdgeColor = claBlack
+      ShowShadow = True
+      ShadowColor = claBlack
+      CanFocus = True
+      Icon = IS_add
+      IconColor = claWhite
+      IconMargin = 4
+      IconOpacity = 1.000000000000000000
+      Animate = True
+      AnimateTime = 0.200000002980232200
+      Options = <
+        item
+          Opcao = IS_FloatOption1
+        end
+        item
+          Opcao = IS_FloatOption2
+        end
+        item
+          Opcao = IS_FloatOption3
+        end
+        item
+          Opcao = IS_FloatOption4
+        end>
+      Space = 10.000000000000000000
+    end
+    object IS_FloatOption1: TIS_FloatOption
+      Fill.Color = claWhite
+      Position.X = 67.000000000000000000
+      Position.Y = 414.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      Color = claWhite
+      EdgeColor = claBlack
+      ShowShadow = True
+      ShadowColor = claGray
+      CanFocus = True
+      OnClicked = IS_FloatOption1Clicked
+      Icon = IS_add
+      IconColor = claBlack
+      IconMargin = 4
+      IconOpacity = 1.000000000000000000
+      ShowHint = True
+      HintColor = claGray
+      Text = 'Incluir'
+      TextColor = claBlack
+      TextBackground = claGray
+      TextAlign = Center
+    end
+    object IS_FloatOption2: TIS_FloatOption
+      Fill.Color = claRed
+      Position.X = 23.000000000000000000
+      Position.Y = 414.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      Color = claRed
+      EdgeColor = claBlack
+      ShowShadow = True
+      ShadowColor = claGray
+      CanFocus = True
+      OnClicked = IS_FloatOption2Clicked
+      Icon = IS_remove
+      IconColor = claWhite
+      IconMargin = 4
+      IconOpacity = 1.000000000000000000
+      ShowHint = True
+      HintColor = claGray
+      Text = 'Excluir'
+      TextColor = claBlack
+      TextBackground = claGray
+      TextAlign = Center
+    end
+    object IS_FloatOption3: TIS_FloatOption
+      Fill.Color = claBlue
+      Position.X = -21.000000000000000000
+      Position.Y = 414.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      Color = claBlue
+      EdgeColor = claBlack
+      ShowShadow = True
+      ShadowColor = claGray
+      CanFocus = True
+      OnClicked = IS_FloatOption3Clicked
+      Icon = IS_delete
+      IconColor = claWhite
+      IconMargin = 4
+      IconOpacity = 1.000000000000000000
+      ShowHint = True
+      HintColor = claGray
+      Text = 'Apagar'
+      TextColor = claBlack
+      TextBackground = claGray
+      TextAlign = Center
+    end
+    object IS_FloatOption4: TIS_FloatOption
+      Fill.Color = claGreen
+      Position.X = 111.000000000000000000
+      Position.Y = 414.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      Color = claGreen
+      EdgeColor = claBlack
+      ShowShadow = True
+      ShadowColor = claGray
+      CanFocus = True
+      OnClicked = IS_FloatOption4Clicked
+      Icon = IS_home
+      IconColor = claWhite
+      IconMargin = 4
+      IconOpacity = 1.000000000000000000
+      ShowHint = True
+      HintColor = claGray
+      Text = 'Home'
+      TextColor = claBlack
+      TextBackground = claGray
+      TextAlign = Center
+    end
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Top
+      Margins.Left = 16.000000000000000000
+      Margins.Right = 16.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 84.000000000000000000
+      Size.Width = 276.000000000000000000
+      Size.Height = 170.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Viewport.Width = 272.000000000000000000
+      Viewport.Height = 166.000000000000000000
+    end
+    object IS_EditEx1: TIS_EditEx
+      Align = Top
+      Fill.Color = claWhite
+      Margins.Left = 16.000000000000000000
+      Margins.Top = 16.000000000000000000
+      Margins.Right = 16.000000000000000000
+      Margins.Bottom = 16.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 276.000000000000000000
+      Size.Height = 52.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 4.000000000000000000
+      YRadius = 4.000000000000000000
+      Color = claWhite
+      EdgeSize = 1.000000000000000000
+      EdgeColor = claBlack
+      CornerWidth = 4.000000000000000000
+      ShowShadow = True
+      ShadowColor = claGray
+      CanFocus = True
+      TextColor = claBlack
+      TextFont.Size = 14.000000000000000000
+      KeyBoardType = Default
+      MaxLength = 0
+      Prompt = 'Nome do usu'#225'rio'
+      PromptColor = claGray
+    end
+  end
+end
